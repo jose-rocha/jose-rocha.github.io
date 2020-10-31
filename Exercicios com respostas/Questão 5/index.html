@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questão 5</title>
+
+    <style>
+      input {
+        width: 340px;
+        height: 20px;
+      }
+      button {
+        background-color: blue;
+        height: 30px;
+        width: 80px;
+        border-radius: 5px;
+        border: 0px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      5) Crie um formulário igual o abaixo. Ao clicar em submit ele deverá
+      apresentar o nome e o email na div de class result sem o refresh de
+      página.
+    </p>
+
+    <br />
+
+    <div>
+      <img src="./image/form.png" alt="Formulário do teste" />
+    </div>
+
+    <br />
+
+    <form action="controler.php">
+      <div class="result"></div>
+      Name: <br />
+      <input type="text" id="name" /><br /><br />
+
+      Email: <br />
+      <input type="email" id="email" /><br /><br />
+
+      <button type="submit" id="btn">Submit</button>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
